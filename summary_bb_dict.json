@@ -1,0 +1,29 @@
+{
+    "methods":{
+        "sfbdt":{
+            "uncertainty_list":["jer", "jes", "fracBB", "stats", "fracLight", "pu", "psWeightIsr", "lumi_13TeV", "l1PreFiring", "psWeightFsr", "extSfBDTVariation", "extVarRwgt"],
+            "input_prefix":"sfbdt_bb"
+        },
+        "ZJets":{
+            "uncertainty_list":["psWeightFsr", "psWeightIsr", "W_d2kappa_EW", "W_d3kappa_EW", "Z_d2kappa_EW", "Z_d3kappa_EW", "d1K_NLO", "d1kappa_EW", "d2K_NLO", "d3K_NLO", "jer", "jes", "jmr", "jms", "lumi_13TeV", "pdfUnc", "prefiring16", "prefiring17", "trig", "stats"],
+            "input_prefix":"ZJets_bb"
+        }
+    },
+
+    "correlation":{
+        "jer":0,
+        "jes":0,
+        "fracBB":0,
+        "stats":0,
+        "fracLight":0,
+        "pu":0,
+        "psWeightIsr":0,
+        "lumi_13TeV":0,
+        "l1PreFiring":0,
+        "psWeightFsr":0,
+        "extSfBDTVariation":0,
+        "extVarRwgt":0
+    },
+    "ptbins":2
+
+}

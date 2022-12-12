@@ -8,8 +8,8 @@ class mutag_interface():
         self.tagger = tagger
         self.year = year
         tagger_map = {
-            'ParticleNetMD_Xbb_QCD': 'PNetXbbVsQCD',
-            'ParticleNetMD_Xcc_QCD': 'PNetXccVsQCD',
+            'particleNetMD_Xbb_QCD': 'PNetXbbVsQCD',
+            'particleNetMD_Xcc_QCD': 'PNetXccVsQCD',
             'btagDDBvLV2': 'DDBvLV2',
             'btagDDCvLV2': 'DDCvLV2',
             'deepTagMD_ZHbbvsQCD': 'DeepAK8ZHbbVsQCD',
@@ -77,11 +77,11 @@ if __name__ == '__main__':
     path = '/afs/cern.ch/user/m/mmarcheg/public/BTV/ScaleFactors/'
     lists ={
         'b_list' : {
-        'tagger':['ParticleNetMD_Xbb_QCD', 'btagDDBvLV2', 'deepTagMD_ZHbbvsQCD', 'btagHbb'],
+        'tagger':['particleNetMD_Xbb_QCD', 'btagDDBvLV2', 'deepTagMD_ZHbbvsQCD', 'btagHbb'],
         'year':['2016UL_PostVFP_all_v01', '2016UL_PreVFP_all', '2017UL_all_v01', '2018UL_all']
         },
         'c_list' : {
-        'tagger':['ParticleNetMD_Xcc_QCD', 'btagDDCvLV2', 'deepTagMD_ZHccvsQCD' ],
+        'tagger':['particleNetMD_Xcc_QCD', 'btagDDCvLV2', 'deepTagMD_ZHccvsQCD' ],
         'year':['2016UL_PostVFP_all_v01', '2016UL_PreVFP_all', '2017UL_all_v01', '2018UL_all']
         }
     }

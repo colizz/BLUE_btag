@@ -155,7 +155,7 @@ class BLUE_combine():
         # print(np.sqrt(lambda_ai * CMatrix * lambda_ai.T))
         with open(self._store, 'w+') as f:
             f.write(f'UMatrix:\n {self.BuildUMatrix()}\n')
-            f.write(f'UMatrix:\n {self.BuildCovarianceMatrix()}\n')
+            f.write(f'CMatrix:\n {self.BuildCovarianceMatrix()}\n')
             f.write(f'Weight Matrix:\n {lambda_ai}\n')
             f.write(f'Original Observables:\n {OCentral}\n')
             f.write(f'Original up:\n {OHigh}\n')

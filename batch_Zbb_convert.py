@@ -61,11 +61,11 @@ class Zbb_interface():
                 if os.path.exists(_csv_file):
                     _ptbin_dict = self.csv_to_json(_csv_file)
                     _wp_dict[_ptbin_map[_ptbin]] = _ptbin_dict
-                    new_jsons[_wp] = _wp_dict
-                    with open(self.store, 'w+') as f:
-                        f.write(json.dumps(new_jsons, indent=4))
                 else:
                     print(f'{_csv_file} not exists, skipping')
+            new_jsons[_wp] = _wp_dict
+            with open(self.store, 'w+') as f:
+                f.write(json.dumps(new_jsons, indent=4))
         pass
     
     def run(self):

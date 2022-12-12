@@ -21,7 +21,7 @@ class mutag_interface():
             '2016UL_PostVFP_all_v01':'2016',
             '2016UL_PreVFP_all':'2016APV',
             '2017UL_all_v01':'2017',
-            '2018UL_all':'2018',
+            '2018UL_all':'2018'
         }
         _store_dir = 'mutag_unc'
         if os.path.exists(f'./{_store_dir}'):
@@ -59,12 +59,16 @@ class mutag_interface():
                         if unc_map.__contains__(key):
                             _ptbin_dict[unc_map[key]] = _ptbin_dict[key]
                             del _ptbin_dict[key]
+                    if self.year == '2018UL_all':
+                        _ptbin_dict['l1PreFiring'] = {'high':'0.0', 'low':'0.0'}
+                        _ptbin_dict['lumi_13TeV'] = _ptbin_dict['lumi']
+                        del _ptbin_dict['lumi']
                     _wp_dict[_ptbin_map[_ptbin]] = _ptbin_dict
-                    new_jsons[_wp_map[_wp]] = _wp_dict
-                    with open(self.store, 'w+') as f:
-                        f.write(json.dumps(new_jsons, indent=4))
                 else:
                     print(f'{_input_json} not exists, skipping')
+            new_jsons[_wp_map[_wp]] = _wp_dict
+            with open(self.store, 'w+') as f:
+                f.write(json.dumps(new_jsons, indent=4))
 
     def run(self):
         self.convert()

@@ -5,7 +5,7 @@
             "input_prefix":"sfbdt_unc"
         },
         "mutag":{
-            "uncertainty_list":["jer", "jes", "fracBB", "fracCC", "stats", "fracLight", "pu", "lumi_13TeV", "l1PreFiring"],
+            "uncertainty_list":["jer", "jes", "fracBB", "fracCC", "stats", "fracLight", "pu", "lumi_13TeV", "l1PreFiring","extMutagVarRwgt","extMutagTau21Variation","QCDFlvCompos"],
             "input_prefix":"mutag_unc"
         },
         "ZJets":{

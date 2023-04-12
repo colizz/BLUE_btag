@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 class Zbb_interface():
-    def __init__(self, year='18', tagger='ParticleNet', path='/eos/user/s/sdeng/sfbdt/Zbb_unc/', **kwargs):
+    def __init__(self, year='18', tagger='ParticleNet', path='/afs/cern.ch/work/s/sdeng/sftp/sfbdt/BLUE_btag/Zbb_input/Zbb_unc/', **kwargs):
         self.year = year
         self.path = path
         self.tagger = tagger

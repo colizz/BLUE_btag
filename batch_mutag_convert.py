@@ -50,6 +50,8 @@ class mutag_interface():
 
         for _wp in _wp_map.keys():
             _wp_dict = {}
+            # clean wp to keep data format if miss ptbin
+            clean_mark = False
             for _ptbin in _ptbin_map.keys():
                 _input_json = f'{self.path}/{self.year}/fitdir/msd40{self.tagger}{_wp}wp_{_ptbin}/breakdown.json'
                 if os.path.exists(_input_json):
@@ -66,7 +68,10 @@ class mutag_interface():
                     _wp_dict[_ptbin_map[_ptbin]] = _ptbin_dict
                 else:
                     print(f'{_input_json} not exists, skipping')
-            new_jsons[_wp_map[_wp]] = _wp_dict
+                    clean_mark = True
+
+            # check data format and do cleaning
+            if not clean_mark: new_jsons[_wp_map[_wp]] = _wp_dict
             with open(self.store, 'w+') as f:
                 f.write(json.dumps(new_jsons, indent=4))
 

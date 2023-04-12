@@ -4,9 +4,9 @@
             "uncertainty_list":["jer", "jes", "fracBB", "stats", "fracLight", "pu", "psWeightIsr", "lumi_13TeV", "l1PreFiring", "psWeightFsr", "extSfBDTVariation", "extVarRwgt"],
             "input_prefix":"sfbdt_unc"
         },
-        "ZJets_cc":{
-            "uncertainty_list":["jer", "jes", "fracBB", "stats", "fracLight", "pu", "psWeightIsr", "lumi_13TeV", "l1PreFiring", "psWeightFsr", "extSfBDTVariation", "extVarRwgt"],
-            "input_prefix":"Zbb_unc"
+        "mutag":{
+            "uncertainty_list":["jer", "jes", "fracBB", "fracCC", "stats", "fracLight", "pu", "lumi_13TeV", "l1PreFiring","extMutagVarRwgt","extMutagTau21Variation","QCDFlvCompos"],
+            "input_prefix":"mutag_unc"
         }
     },
 

@@ -1,0 +1,805 @@
+{
+    "tight": {
+        "ptbin1": {
+            "final": {
+                "FreezeAllhigh": 0.28,
+                "FreezeAlllow": 0.228,
+                "high": 0.28,
+                "low": 0.228,
+                "central": "1.24"
+            },
+            "psWeightFsr": {
+                "FreezeAllhigh": 0.258,
+                "FreezeAlllow": 0.217,
+                "high": "0.109",
+                "low": "0.071"
+            },
+            "psWeightIsr": {
+                "FreezeAllhigh": 0.228,
+                "FreezeAlllow": 0.205,
+                "high": "0.121",
+                "low": "0.071"
+            },
+            "W_d2kappa_EW": {
+                "FreezeAllhigh": 0.228,
+                "FreezeAlllow": 0.205,
+                "high": "0.002",
+                "low": "0.002"
+            },
+            "W_d3kappa_EW": {
+                "FreezeAllhigh": 0.228,
+                "FreezeAlllow": 0.205,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "Z_d2kappa_EW": {
+                "FreezeAllhigh": 0.228,
+                "FreezeAlllow": 0.205,
+                "high": "0.011",
+                "low": "0.008"
+            },
+            "Z_d3kappa_EW": {
+                "FreezeAllhigh": 0.228,
+                "FreezeAlllow": 0.204,
+                "high": "0.004",
+                "low": "0.004"
+            },
+            "d1K_NLO": {
+                "FreezeAllhigh": 0.195,
+                "FreezeAlllow": 0.188,
+                "high": "0.118",
+                "low": "0.081"
+            },
+            "d1kappa_EW": {
+                "FreezeAllhigh": 0.195,
+                "FreezeAlllow": 0.188,
+                "high": "0.001",
+                "low": "0.000"
+            },
+            "d2K_NLO": {
+                "FreezeAllhigh": 0.187,
+                "FreezeAlllow": 0.183,
+                "high": "0.054",
+                "low": "0.041"
+            },
+            "d3K_NLO": {
+                "FreezeAllhigh": 0.187,
+                "FreezeAlllow": 0.183,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "jer": {
+                "FreezeAllhigh": 0.187,
+                "FreezeAlllow": 0.183,
+                "high": "0.010",
+                "low": "0.012"
+            },
+            "jes": {
+                "FreezeAllhigh": 0.181,
+                "FreezeAlllow": 0.177,
+                "high": "0.049",
+                "low": "0.048"
+            },
+            "jmr": {
+                "FreezeAllhigh": 0.181,
+                "FreezeAlllow": 0.177,
+                "high": "0.008",
+                "low": "0.002"
+            },
+            "jms": {
+                "FreezeAllhigh": 0.179,
+                "FreezeAlllow": 0.174,
+                "high": "0.027",
+                "low": "0.030"
+            },
+            "lumi_13TeV": {
+                "FreezeAllhigh": 0.176,
+                "FreezeAlllow": 0.173,
+                "high": "0.032",
+                "low": "0.024"
+            },
+            "pdfUnc": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.172,
+                "high": "0.014",
+                "low": "0.010"
+            },
+            "prefiring16": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.172,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "prefiring17": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.172,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "pu": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.172,
+                "high": "0.002",
+                "low": "0.001"
+            },
+            "trig": {
+                "FreezeAllhigh": 0.172,
+                "FreezeAlllow": 0.17,
+                "high": "0.035",
+                "low": "0.027"
+            },
+            "stats": {
+                "high": 0.172,
+                "low": 0.17
+            }
+        },
+        "ptbin2": {
+            "final": {
+                "FreezeAllhigh": 0.227,
+                "FreezeAlllow": 0.184,
+                "high": 0.227,
+                "low": 0.184,
+                "central": "1.07"
+            },
+            "psWeightFsr": {
+                "FreezeAllhigh": 0.199,
+                "FreezeAlllow": 0.169,
+                "high": "0.109",
+                "low": "0.071"
+            },
+            "psWeightIsr": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.157,
+                "high": "0.093",
+                "low": "0.064"
+            },
+            "W_d2kappa_EW": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.157,
+                "high": "0.003",
+                "low": "0.000"
+            },
+            "W_d3kappa_EW": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.157,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "Z_d2kappa_EW": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.156,
+                "high": "0.010",
+                "low": "0.008"
+            },
+            "Z_d3kappa_EW": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.156,
+                "high": "0.005",
+                "low": "0.004"
+            },
+            "d1K_NLO": {
+                "FreezeAllhigh": 0.142,
+                "FreezeAlllow": 0.139,
+                "high": "0.103",
+                "low": "0.072"
+            },
+            "d1kappa_EW": {
+                "FreezeAllhigh": 0.142,
+                "FreezeAlllow": 0.139,
+                "high": "0.001",
+                "low": "0.001"
+            },
+            "d2K_NLO": {
+                "FreezeAllhigh": 0.138,
+                "FreezeAlllow": 0.136,
+                "high": "0.034",
+                "low": "0.028"
+            },
+            "d3K_NLO": {
+                "FreezeAllhigh": 0.138,
+                "FreezeAlllow": 0.136,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "jer": {
+                "FreezeAllhigh": 0.138,
+                "FreezeAlllow": 0.136,
+                "high": "0.004",
+                "low": "0.004"
+            },
+            "jes": {
+                "FreezeAllhigh": 0.129,
+                "FreezeAlllow": 0.128,
+                "high": "0.047",
+                "low": "0.046"
+            },
+            "jmr": {
+                "FreezeAllhigh": 0.129,
+                "FreezeAlllow": 0.128,
+                "high": "0.005",
+                "low": "0.002"
+            },
+            "jms": {
+                "FreezeAllhigh": 0.126,
+                "FreezeAlllow": 0.123,
+                "high": "0.029",
+                "low": "0.033"
+            },
+            "lumi_13TeV": {
+                "FreezeAllhigh": 0.123,
+                "FreezeAlllow": 0.121,
+                "high": "0.027",
+                "low": "0.021"
+            },
+            "pdfUnc": {
+                "FreezeAllhigh": 0.122,
+                "FreezeAlllow": 0.121,
+                "high": "0.012",
+                "low": "0.009"
+            },
+            "prefiring16": {
+                "FreezeAllhigh": 0.122,
+                "FreezeAlllow": 0.121,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "prefiring17": {
+                "FreezeAllhigh": 0.122,
+                "FreezeAlllow": 0.121,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "pu": {
+                "FreezeAllhigh": 0.122,
+                "FreezeAlllow": 0.121,
+                "high": "0.007",
+                "low": "0.006"
+            },
+            "trig": {
+                "FreezeAllhigh": 0.121,
+                "FreezeAlllow": 0.12,
+                "high": "0.016",
+                "low": "0.013"
+            },
+            "stats": {
+                "high": 0.121,
+                "low": 0.12
+            }
+        },
+        "ptbin3": {
+            "final": {
+                "FreezeAllhigh": 0.214,
+                "FreezeAlllow": 0.17,
+                "high": 0.214,
+                "low": 0.17,
+                "central": "0.91"
+            },
+            "psWeightFsr": {
+                "FreezeAllhigh": 0.185,
+                "FreezeAlllow": 0.157,
+                "high": "0.108",
+                "low": "0.066"
+            },
+            "psWeightIsr": {
+                "FreezeAllhigh": 0.164,
+                "FreezeAlllow": 0.148,
+                "high": "0.084",
+                "low": "0.050"
+            },
+            "W_d2kappa_EW": {
+                "FreezeAllhigh": 0.165,
+                "FreezeAlllow": 0.149,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "W_d3kappa_EW": {
+                "FreezeAllhigh": 0.165,
+                "FreezeAlllow": 0.149,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "Z_d2kappa_EW": {
+                "FreezeAllhigh": 0.164,
+                "FreezeAlllow": 0.148,
+                "high": "0.012",
+                "low": "0.008"
+            },
+            "Z_d3kappa_EW": {
+                "FreezeAllhigh": 0.164,
+                "FreezeAlllow": 0.148,
+                "high": "0.008",
+                "low": "0.007"
+            },
+            "d1K_NLO": {
+                "FreezeAllhigh": 0.133,
+                "FreezeAlllow": 0.133,
+                "high": "0.096",
+                "low": "0.065"
+            },
+            "d1kappa_EW": {
+                "FreezeAllhigh": 0.133,
+                "FreezeAlllow": 0.133,
+                "high": "0.000",
+                "low": "0.003"
+            },
+            "d2K_NLO": {
+                "FreezeAllhigh": 0.133,
+                "FreezeAlllow": 0.133,
+                "high": "0.008",
+                "low": "0.000"
+            },
+            "d3K_NLO": {
+                "FreezeAllhigh": 0.133,
+                "FreezeAlllow": 0.133,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "jer": {
+                "FreezeAllhigh": 0.133,
+                "FreezeAlllow": 0.133,
+                "high": "0.005",
+                "low": "0.009"
+            },
+            "jes": {
+                "FreezeAllhigh": 0.119,
+                "FreezeAlllow": 0.119,
+                "high": "0.058",
+                "low": "0.059"
+            },
+            "jmr": {
+                "FreezeAllhigh": 0.119,
+                "FreezeAlllow": 0.119,
+                "high": "0.001",
+                "low": "0.005"
+            },
+            "jms": {
+                "FreezeAllhigh": 0.115,
+                "FreezeAlllow": 0.113,
+                "high": "0.031",
+                "low": "0.036"
+            },
+            "lumi_13TeV": {
+                "FreezeAllhigh": 0.109,
+                "FreezeAlllow": 0.111,
+                "high": "0.037",
+                "low": "0.018"
+            },
+            "pdfUnc": {
+                "FreezeAllhigh": 0.108,
+                "FreezeAlllow": 0.111,
+                "high": "0.013",
+                "low": "0.011"
+            },
+            "prefiring16": {
+                "FreezeAllhigh": 0.108,
+                "FreezeAlllow": 0.111,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "prefiring17": {
+                "FreezeAllhigh": 0.108,
+                "FreezeAlllow": 0.111,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "pu": {
+                "FreezeAllhigh": 0.112,
+                "FreezeAlllow": 0.111,
+                "high": "0.000",
+                "low": "0.003"
+            },
+            "trig": {
+                "FreezeAllhigh": 0.111,
+                "FreezeAlllow": 0.111,
+                "high": "0.006",
+                "low": "0.003"
+            },
+            "stats": {
+                "high": 0.111,
+                "low": 0.111
+            }
+        }
+    },
+    "medium": {
+        "ptbin1": {
+            "final": {
+                "FreezeAllhigh": 0.313,
+                "FreezeAlllow": 0.259,
+                "high": 0.313,
+                "low": 0.259,
+                "central": "1.21"
+            },
+            "psWeightFsr": {
+                "FreezeAllhigh": 0.132,
+                "FreezeAlllow": 0.25,
+                "high": "0.283",
+                "low": "0.071"
+            },
+            "psWeightIsr": {
+                "FreezeAllhigh": 0.266,
+                "FreezeAlllow": 0.241,
+                "high": "0.000",
+                "low": "0.064"
+            },
+            "W_d2kappa_EW": {
+                "FreezeAllhigh": 0.266,
+                "FreezeAlllow": 0.241,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "W_d3kappa_EW": {
+                "FreezeAllhigh": 0.266,
+                "FreezeAlllow": 0.241,
+                "high": "0.001",
+                "low": "0.000"
+            },
+            "Z_d2kappa_EW": {
+                "FreezeAllhigh": 0.265,
+                "FreezeAlllow": 0.241,
+                "high": "0.010",
+                "low": "0.007"
+            },
+            "Z_d3kappa_EW": {
+                "FreezeAllhigh": 0.265,
+                "FreezeAlllow": 0.241,
+                "high": "0.007",
+                "low": "0.004"
+            },
+            "d1K_NLO": {
+                "FreezeAllhigh": 0.237,
+                "FreezeAlllow": 0.229,
+                "high": "0.120",
+                "low": "0.077"
+            },
+            "d1kappa_EW": {
+                "FreezeAllhigh": 0.237,
+                "FreezeAlllow": 0.229,
+                "high": "0.002",
+                "low": "0.003"
+            },
+            "d2K_NLO": {
+                "FreezeAllhigh": 0.229,
+                "FreezeAlllow": 0.224,
+                "high": "0.058",
+                "low": "0.043"
+            },
+            "d3K_NLO": {
+                "FreezeAllhigh": 0.229,
+                "FreezeAlllow": 0.224,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "jer": {
+                "FreezeAllhigh": 0.229,
+                "FreezeAlllow": 0.224,
+                "high": "0.006",
+                "low": "0.010"
+            },
+            "jes": {
+                "FreezeAllhigh": 0.217,
+                "FreezeAlllow": 0.214,
+                "high": "0.072",
+                "low": "0.067"
+            },
+            "jmr": {
+                "FreezeAllhigh": 0.217,
+                "FreezeAlllow": 0.214,
+                "high": "0.002",
+                "low": "0.005"
+            },
+            "jms": {
+                "FreezeAllhigh": 0.209,
+                "FreezeAlllow": 0.204,
+                "high": "0.058",
+                "low": "0.063"
+            },
+            "lumi_13TeV": {
+                "FreezeAllhigh": 0.207,
+                "FreezeAlllow": 0.203,
+                "high": "0.033",
+                "low": "0.023"
+            },
+            "pdfUnc": {
+                "FreezeAllhigh": 0.206,
+                "FreezeAlllow": 0.203,
+                "high": "0.013",
+                "low": "0.009"
+            },
+            "prefiring16": {
+                "FreezeAllhigh": 0.206,
+                "FreezeAlllow": 0.203,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "prefiring17": {
+                "FreezeAllhigh": 0.206,
+                "FreezeAlllow": 0.203,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "pu": {
+                "FreezeAllhigh": 0.206,
+                "FreezeAlllow": 0.203,
+                "high": "0.001",
+                "low": "0.001"
+            },
+            "trig": {
+                "FreezeAllhigh": 0.203,
+                "FreezeAlllow": 0.201,
+                "high": "0.039",
+                "low": "0.026"
+            },
+            "stats": {
+                "high": 0.203,
+                "low": 0.201
+            }
+        },
+        "ptbin2": {
+            "final": {
+                "FreezeAllhigh": 0.258,
+                "FreezeAlllow": 0.21,
+                "high": 0.258,
+                "low": 0.21,
+                "central": "1.21"
+            },
+            "psWeightFsr": {
+                "FreezeAllhigh": 0.239,
+                "FreezeAlllow": 0.199,
+                "high": "0.100",
+                "low": "0.066"
+            },
+            "psWeightIsr": {
+                "FreezeAllhigh": 0.21,
+                "FreezeAlllow": 0.188,
+                "high": "0.114",
+                "low": "0.066"
+            },
+            "W_d2kappa_EW": {
+                "FreezeAllhigh": 0.21,
+                "FreezeAlllow": 0.188,
+                "high": "0.000",
+                "low": "0.009"
+            },
+            "W_d3kappa_EW": {
+                "FreezeAllhigh": 0.21,
+                "FreezeAlllow": 0.188,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "Z_d2kappa_EW": {
+                "FreezeAllhigh": 0.209,
+                "FreezeAlllow": 0.188,
+                "high": "0.012",
+                "low": "0.009"
+            },
+            "Z_d3kappa_EW": {
+                "FreezeAllhigh": 0.209,
+                "FreezeAlllow": 0.188,
+                "high": "0.006",
+                "low": "0.005"
+            },
+            "d1K_NLO": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.171,
+                "high": "0.114",
+                "low": "0.077"
+            },
+            "d1kappa_EW": {
+                "FreezeAllhigh": 0.175,
+                "FreezeAlllow": 0.171,
+                "high": "0.002",
+                "low": "0.001"
+            },
+            "d2K_NLO": {
+                "FreezeAllhigh": 0.17,
+                "FreezeAlllow": 0.168,
+                "high": "0.041",
+                "low": "0.033"
+            },
+            "d3K_NLO": {
+                "FreezeAllhigh": 0.17,
+                "FreezeAlllow": 0.168,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "jer": {
+                "FreezeAllhigh": 0.17,
+                "FreezeAlllow": 0.167,
+                "high": "0.006",
+                "low": "0.016"
+            },
+            "jes": {
+                "FreezeAllhigh": 0.156,
+                "FreezeAlllow": 0.155,
+                "high": "0.068",
+                "low": "0.064"
+            },
+            "jmr": {
+                "FreezeAllhigh": 0.156,
+                "FreezeAlllow": 0.155,
+                "high": "0.000",
+                "low": "0.005"
+            },
+            "jms": {
+                "FreezeAllhigh": 0.15,
+                "FreezeAlllow": 0.147,
+                "high": "0.043",
+                "low": "0.048"
+            },
+            "lumi_13TeV": {
+                "FreezeAllhigh": 0.147,
+                "FreezeAlllow": 0.145,
+                "high": "0.031",
+                "low": "0.024"
+            },
+            "pdfUnc": {
+                "FreezeAllhigh": 0.147,
+                "FreezeAlllow": 0.145,
+                "high": "0.014",
+                "low": "0.011"
+            },
+            "prefiring16": {
+                "FreezeAllhigh": 0.147,
+                "FreezeAlllow": 0.145,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "prefiring17": {
+                "FreezeAllhigh": 0.147,
+                "FreezeAlllow": 0.145,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "pu": {
+                "FreezeAllhigh": 0.146,
+                "FreezeAlllow": 0.145,
+                "high": "0.005",
+                "low": "0.004"
+            },
+            "trig": {
+                "FreezeAllhigh": 0.145,
+                "FreezeAlllow": 0.144,
+                "high": "0.020",
+                "low": "0.015"
+            },
+            "stats": {
+                "high": 0.145,
+                "low": 0.144
+            }
+        },
+        "ptbin3": {
+            "final": {
+                "FreezeAllhigh": 0.245,
+                "FreezeAlllow": 0.2,
+                "high": 0.245,
+                "low": 0.2,
+                "central": "0.93"
+            },
+            "psWeightFsr": {
+                "FreezeAllhigh": 0.218,
+                "FreezeAlllow": 0.19,
+                "high": "0.110",
+                "low": "0.064"
+            },
+            "psWeightIsr": {
+                "FreezeAllhigh": 0.202,
+                "FreezeAlllow": 0.184,
+                "high": "0.083",
+                "low": "0.046"
+            },
+            "W_d2kappa_EW": {
+                "FreezeAllhigh": 0.202,
+                "FreezeAlllow": 0.184,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "W_d3kappa_EW": {
+                "FreezeAllhigh": 0.202,
+                "FreezeAlllow": 0.184,
+                "high": "0.001",
+                "low": "0.013"
+            },
+            "Z_d2kappa_EW": {
+                "FreezeAllhigh": 0.202,
+                "FreezeAlllow": 0.184,
+                "high": "0.012",
+                "low": "0.008"
+            },
+            "Z_d3kappa_EW": {
+                "FreezeAllhigh": 0.202,
+                "FreezeAlllow": 0.184,
+                "high": "0.009",
+                "low": "0.000"
+            },
+            "d1K_NLO": {
+                "FreezeAllhigh": 0.174,
+                "FreezeAlllow": 0.172,
+                "high": "0.102",
+                "low": "0.065"
+            },
+            "d1kappa_EW": {
+                "FreezeAllhigh": 0.174,
+                "FreezeAlllow": 0.172,
+                "high": "0.004",
+                "low": "0.002"
+            },
+            "d2K_NLO": {
+                "FreezeAllhigh": 0.177,
+                "FreezeAlllow": 0.172,
+                "high": "0.000",
+                "low": "0.005"
+            },
+            "d3K_NLO": {
+                "FreezeAllhigh": 0.177,
+                "FreezeAlllow": 0.175,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "jer": {
+                "FreezeAllhigh": 0.174,
+                "FreezeAlllow": 0.171,
+                "high": "0.033",
+                "low": "0.037"
+            },
+            "jes": {
+                "FreezeAllhigh": 0.158,
+                "FreezeAlllow": 0.162,
+                "high": "0.071",
+                "low": "0.053"
+            },
+            "jmr": {
+                "FreezeAllhigh": 0.158,
+                "FreezeAlllow": 0.157,
+                "high": "0.003",
+                "low": "0.039"
+            },
+            "jms": {
+                "FreezeAllhigh": 0.157,
+                "FreezeAlllow": 0.154,
+                "high": "0.022",
+                "low": "0.032"
+            },
+            "lumi_13TeV": {
+                "FreezeAllhigh": 0.149,
+                "FreezeAlllow": 0.148,
+                "high": "0.048",
+                "low": "0.044"
+            },
+            "pdfUnc": {
+                "FreezeAllhigh": 0.154,
+                "FreezeAlllow": 0.153,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "prefiring16": {
+                "FreezeAllhigh": 0.154,
+                "FreezeAlllow": 0.153,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "prefiring17": {
+                "FreezeAllhigh": 0.154,
+                "FreezeAlllow": 0.153,
+                "high": "0.000",
+                "low": "0.000"
+            },
+            "pu": {
+                "FreezeAllhigh": 0.154,
+                "FreezeAlllow": 0.153,
+                "high": "0.001",
+                "low": "0.001"
+            },
+            "trig": {
+                "FreezeAllhigh": 0.149,
+                "FreezeAlllow": 0.147,
+                "high": "0.042",
+                "low": "0.041"
+            },
+            "stats": {
+                "high": 0.149,
+                "low": 0.147
+            }
+        }
+    },
+    "loose": {}
+}

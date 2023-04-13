@@ -1,0 +1,34 @@
+{
+    "methods":{
+        "sfbdt":{
+            "uncertainty_list":["jer", "jes", "fracBB", "fracCC", "stats", "fracLight", "pu", "psWeightIsr", "lumi_13TeV", "l1PreFiring", "psWeightFsr", "extSfBDTVariation", "extVarRwgt"],
+            "input_prefix":"sfbdt_test1"
+        },
+        "sfbdt2":{
+            "uncertainty_list":["jer", "jes", "fracBB", "fracCC", "stats", "fracLight", "pu", "psWeightIsr", "lumi_13TeV", "l1PreFiring", "psWeightFsr", "extSfBDTVariation", "extVarRwgt"],
+            "input_prefix":"sfbdt_test2"
+        }
+    },
+
+    "tagger":["PNetXbbVsQCD"],
+    "year":["2018"],
+    "wp":["tight","medium","loose"],
+
+    "correlation":{
+        "jer":1,
+        "jes":1,
+        "pu":1,
+        "fracBB":1,
+        "fracCC":1,
+        "fracLight":1,
+        "psWeightIsr":1,
+        "psWeightFsr":1,
+        "extsfBDTVariation":1,
+        "extVarRwgt":1,
+        "lumi_13TeV":1,
+        "l1PreFiring":1,
+        "stat":1
+    },
+    "ptbins":3
+
+}

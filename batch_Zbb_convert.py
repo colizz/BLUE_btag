@@ -2,6 +2,7 @@ import csv
 import os,sys
 import json
 import pandas as pd
+import numpy as np
 
 class Zbb_interface():
     def __init__(self, year='18', tagger='ParticleNet', path='/afs/cern.ch/work/s/sdeng/sftp/sfbdt/BLUE_btag/Zbb_input/Zbb_unc/', **kwargs):
@@ -25,7 +26,7 @@ class Zbb_interface():
         # print(central)
 
         column_index = ['FreezeAllhigh', 'FreezeAlllow', 'high', 'low']
-        csv = pd.read_csv(file, names=column_index, index_col=0, skiprows=2)
+        csv = pd.read_csv(file, names=column_index, index_col=0, skiprows=2, dtype=np.float64)
         # csv = pd.read_csv(file, skiprows=1)
         jsons = {}
         
@@ -34,9 +35,14 @@ class Zbb_interface():
             'lumi':"lumi_13TeV",
             "puUnc":"pu",
             "FSR":"psWeightFsr",
-            "ISR":"psWeightIsr"
+            "ISR":"psWeightIsr",
+            "prefiring":"l1PreFiring"
         }
 
+        print(csv.index)
+        if 'prefiring16' in csv.index:
+            csv.loc['l1PreFiring',:] = csv.loc['prefiring16',:]+csv.loc['prefiring17',:]
+            csv.drop(labels=['prefiring16','prefiring17'], axis=0, inplace=True)
         csv.rename(index=unc_map, inplace=True)
 
         jsons = csv.to_dict(orient = 'index')

@@ -26,7 +26,7 @@ class Zbb_interface():
         # print(central)
 
         column_index = ['FreezeAllhigh', 'FreezeAlllow', 'high', 'low']
-        csv = pd.read_csv(file, names=column_index, index_col=0, skiprows=2, dtype=np.float64)
+        csv = pd.read_csv(file, names=column_index, index_col=0, skiprows=2)
         # csv = pd.read_csv(file, skiprows=1)
         jsons = {}
         
@@ -41,6 +41,7 @@ class Zbb_interface():
 
         print(csv.index)
         if 'prefiring16' in csv.index:
+            csv.loc[['prefiring16','prefiring17'],:] = csv.loc[['prefiring16','prefiring17'],:].apply(pd.to_numeric,errors='ignore')
             csv.loc['l1PreFiring',:] = csv.loc['prefiring16',:]+csv.loc['prefiring17',:]
             csv.drop(labels=['prefiring16','prefiring17'], axis=0, inplace=True)
         csv.rename(index=unc_map, inplace=True)

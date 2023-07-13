@@ -4,7 +4,7 @@ import json
 
 class sfbdt_interface():
 
-    def __init__(self, path='20221201', prefix='bb_ULNanoV9', tagger='PNetXbbVsQCD', suffix='ak8_inclWP', year='2018', **kwargs):
+    def __init__(self, path='20230601', prefix='bb_ULNanoV9', tagger='PNetXbbVsQCD', suffix='ak8_inclWP', year='2018', **kwargs):
         self.webpath = 'https://coli.web.cern.ch/coli/.cms/btv/boohft-calib/'
         self.file_name = 'sf_full_unce_breakdown.json'
         self.path = path
@@ -31,11 +31,21 @@ class sfbdt_interface():
         _ptbin_map = {'ptbin1':'pt450to500', 'ptbin2':'pt500to600', 'ptbin3':'pt600to100000'}
         with open(self.store, 'r') as f:
             jsons = json.load(f)
+
+        _unc_map ={
+            'frac_BB':'fracBB_sfbdt',
+            'frac_CC':'fracCC_sfbdt',
+            'fracLight':'fracLight_sfbdt',
+        }
         
         new_jsons = {}
         for _wp in _wp_map.keys():
             _wp_dict = {}
             for _ptbin in _ptbin_map.keys():
+                # rename unc
+                for _unc in _unc_map.keys():
+                    if _unc in jsons.keys():
+                        jsons[_unc_map[_unc]] = jsons.pop(_unc)
                 _ptbin_dict = jsons[f'{_wp_map[_wp]}_{_ptbin_map[_ptbin]}']
                 _wp_dict[_ptbin] = _ptbin_dict
             new_jsons[_wp] = _wp_dict

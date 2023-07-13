@@ -31,9 +31,9 @@ class mutag_new_interface():
             'JER':'jer',
             'JES_Total':'jes',
             'all':'final',
-            'frac_l':'fracLight',
-            'frac_bb':'fracBB',
-            'frac_cc':'fracCC',
+            'frac_l':'fracLight_mutag',
+            'frac_bb':'fracBB_mutag',
+            'frac_cc':'fracCC_mutag',
             'pileup':'pu',
         }
 

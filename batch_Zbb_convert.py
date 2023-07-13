@@ -34,8 +34,8 @@ class Zbb_interface():
             "Total":"final",
             'lumi':"lumi_13TeV",
             "puUnc":"pu",
-            "FSR":"psWeightFsr",
-            "ISR":"psWeightIsr",
+            "FSR":"psWeightFsr_Zbb",
+            "ISR":"psWeightIsr_Zbb",
             "prefiring":"l1PreFiring"
         }
 

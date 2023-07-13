@@ -1,15 +1,15 @@
 {
     "methods":{
         "sfbdt":{
-            "uncertainty_list":["jer", "jes", "fracBB", "fracCC", "stats", "fracLight", "pu", "psWeightIsr", "lumi_13TeV", "l1PreFiring", "psWeightFsr", "extSfBDTVariation", "extVarRwgt"],
+            "uncertainty_list":["jer", "jes", "fracBB_sfbdt", "fracCC_sfbdt", "stats", "fracLight_sfbdt", "pu", "psWeightIsr", "lumi_13TeV", "l1PreFiring", "psWeightFsr", "extSfBDTVariation", "extVarRwgt"],
             "input_prefix":"sfbdt_unc"
         },
         "mutag":{
-            "uncertainty_list":["jer", "jes", "fracBB", "fracCC", "stats", "fracLight", "pu", "lumi_13TeV", "l1PreFiring","extMutagVarRwgt","extMutagTau21Variation","QCDFlvComposRealMG"],
+            "uncertainty_list":["jer", "jes", "fracBB_mutag", "fracCC_mutag", "stats", "fracLight_mutag", "pu", "lumi_13TeV", "l1PreFiring","extMutagVarRwgt","extMutagTau21Variation","QCDFlvComposRealMG"],
             "input_prefix":"mutag_unc"
         },
         "ZJets":{
-            "uncertainty_list":["psWeightFsr", "psWeightIsr", "W_d2kappa_EW", "W_d3kappa_EW", "Z_d2kappa_EW", "Z_d3kappa_EW", "d1K_NLO", "d1kappa_EW", "d2K_NLO", "d3K_NLO", "jer", "jes", "jmr", "jms", "lumi_13TeV", "pdfUnc", "l1PreFiring", "trig", "stats"],
+            "uncertainty_list":["psWeightFsr_Zbb", "psWeightIsr_Zbb", "W_d2kappa_EW", "W_d3kappa_EW", "Z_d2kappa_EW", "Z_d3kappa_EW", "d1K_NLO", "d1kappa_EW", "d2K_NLO", "d3K_NLO", "jer", "jes", "jmr", "jms", "lumi_13TeV", "pdfUnc", "l1PreFiring", "trig", "stats"],
             "input_prefix":"Zbb_unc"
         }
     },

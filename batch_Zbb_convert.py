@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 class Zbb_interface():
-    def __init__(self, year='18', tagger='ParticleNet', path='/afs/cern.ch/work/s/sdeng/sftp/sfbdt/BLUE_btag/Zbb_input/Zbb_unc/', **kwargs):
+    def __init__(self, year='18', tagger='ParticleNet', path='/home/pku/licq/calib/mutag/fromSenLxplus/20240713/BLUE_btag/Zbb_input_v2502/Zbb_unc', **kwargs):
         self.year = year
         self.path = path
         self.tagger = tagger

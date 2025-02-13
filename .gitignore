@@ -1,2 +1,7 @@
-
+202*
 .vscode/sftp.json
+*.log
+*input*
+*summary*
+*combine_result*
+backup_preapp

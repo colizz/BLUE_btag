@@ -1,0 +1,1242 @@
+{
+    "2016_PreVFP": {
+        "btagDDBvLV2": {
+            "450to500": {
+                "L": {
+                    "chi2": 14.597207194739712,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.530487373878094,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 3.06121718157478,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 14.86836918946699,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.692034009840825,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 2.075122637180977,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 7.9889548938294626,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.2825925517593024,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.4366691456345366,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "btagDDCvLV2": {
+            "450to500": {
+                "L": {
+                    "chi2": 10.370812718385084,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.9359181014358313,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.1941744879724518,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 9.628900626125995,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.692316811441001,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.3724276457210267,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 5.715842521944616,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 1.811700007156684,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.5690151106321805,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "particleNetMD_Xbb_QCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 7.226654721459173,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 2.798907330749872,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.8400696487699737,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 5.746717295977995,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 2.26465368086673,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.8428342976293659,
+                    "chi2BelowOne": true
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 3.52982238201,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 1.5548255107590354,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.6389718343435931,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "particleNetMD_Xcc_QCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 1.0110394149095252,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 0.5453924877347712,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.30778298219382,
+                    "chi2BelowOne": true
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 0.8098603661881347,
+                    "chi2BelowOne": true
+                },
+                "M": {
+                    "chi2": 0.4146274740276459,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.3186442789043406,
+                    "chi2BelowOne": true
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 0.5206236264181027,
+                    "chi2BelowOne": true
+                },
+                "M": {
+                    "chi2": 0.2195152092763702,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.144956591530086,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "deepTagMD_ZHbbvsQCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 14.829612593988632,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 4.652933968482857,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 3.0350863060948843,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 14.291085648119054,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.116900355771568,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 2.278601402633526,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 6.581972353196664,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.75683023033753,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.852898654404282,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "deepTagMD_ZHccvsQCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 8.223747131490157,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.075603636355001,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.0469059895310415,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 6.830566299733193,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 2.701893331654224,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.0240031667854992,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 3.265608716708627,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 1.402163463917664,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.6129311218408275,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "btagHbb": {
+            "450to500": {
+                "L": {
+                    "chi2": 40.146273401035536,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 13.848882699428811,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 3.1158586616867883,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 34.133681938699326,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 13.674340051271384,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 4.739640025657876,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 15.930346499596816,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 5.78434416891983,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.911191570314687,
+                    "chi2BelowOne": false
+                }
+            }
+        }
+    },
+    "2016_PostVFP": {
+        "btagDDBvLV2": {
+            "450to500": {
+                "L": {
+                    "chi2": 14.74329214474627,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 5.334415864560271,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 2.404951775508476,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 18.152560471734017,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 8.3322148203181,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 2.8547300315095696,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 8.398307339573003,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 2.9715353099987376,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.3230323096688297,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "btagDDCvLV2": {
+            "450to500": {
+                "L": {
+                    "chi2": 11.96107918816479,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.7617303776556574,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.0280689612204157,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 11.426310227050926,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.898118908327332,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.9807864978267248,
+                    "chi2BelowOne": true
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 6.1434980229060825,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 1.9686515391625008,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.5650744893267182,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "particleNetMD_Xbb_QCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 6.073824343615983,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.0879376824403777,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 2.084692518097412,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 7.147561627459543,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.048333724240288,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.270265618409418,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 3.328289190070207,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 1.2265468933561852,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.5903876970797937,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "particleNetMD_Xcc_QCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 0.9941104077528088,
+                    "chi2BelowOne": true
+                },
+                "M": {
+                    "chi2": 0.3646684983899609,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.296363949973881,
+                    "chi2BelowOne": true
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 1.0824799827986284,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 0.6141626945619544,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.3322431399965133,
+                    "chi2BelowOne": true
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 0.4440650426525346,
+                    "chi2BelowOne": true
+                },
+                "M": {
+                    "chi2": 0.2212361420000099,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.2240178814031302,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "deepTagMD_ZHbbvsQCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 16.129829792507046,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.1457844816480165,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 4.252481493949976,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 15.730344450476258,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.970349154756817,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 3.237918689428175,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 6.114945132117466,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 2.2269416182604864,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.0852993311816566,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "deepTagMD_ZHccvsQCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 9.064862705851503,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.505569655109161,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.2317403537467508,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 8.006023471811632,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.4985390126834703,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.2308849168565048,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 3.573594373358983,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 1.3348704698601266,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.4822721547752225,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "btagHbb": {
+            "450to500": {
+                "L": {
+                    "chi2": 45.305692211283805,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 33.588478697085364,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 5.958583633284947,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 37.16540357818326,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 14.712531868873269,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 7.079125183153394,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 17.517696416132182,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.967246346711722,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.965267860535171,
+                    "chi2BelowOne": false
+                }
+            }
+        }
+    },
+    "2017": {
+        "btagDDBvLV2": {
+            "450to500": {
+                "L": {
+                    "chi2": 35.60163333261304,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 15.75893801919129,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 7.415383031773803,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 32.36865321858938,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 13.279039663777642,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 6.307598003138675,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 18.89930641657591,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 7.450901704760977,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 3.2238115414795447,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "btagDDCvLV2": {
+            "450to500": {
+                "L": {
+                    "chi2": 12.375542320632936,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 4.515360126534676,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.7490192143104293,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 11.22327603097442,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.5189499159171005,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.520517695031958,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 6.429906999388354,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 2.008478208704453,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.7108735706421595,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "particleNetMD_Xbb_QCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 11.894644026760194,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 5.487371630003036,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 3.1246012297745254,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 11.280998888040486,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 4.792811746464284,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 2.72764386043658,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 7.951247103871702,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.397475896499956,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.5430252908112716,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "particleNetMD_Xcc_QCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 1.339301826493748,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 0.6263501715615825,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.3273041196241364,
+                    "chi2BelowOne": true
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 0.972461277168322,
+                    "chi2BelowOne": true
+                },
+                "M": {
+                    "chi2": 0.6313913258789031,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.6446251404192608,
+                    "chi2BelowOne": true
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 0.6086107153942184,
+                    "chi2BelowOne": true
+                },
+                "M": {
+                    "chi2": 0.2545882159919532,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.1563412841228704,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "deepTagMD_ZHbbvsQCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 32.904070977389694,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 14.987171308816515,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 6.397956813352412,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 28.15568899328452,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 12.890233132549868,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 7.1323640160150505,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 15.554936621834283,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 7.151325734397348,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 3.2096254103513573,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "deepTagMD_ZHccvsQCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 14.018495143622054,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.215289519558209,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 2.844576850353102,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 10.843761069395336,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.969819920931736,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.3530715739611017,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 5.918428589980986,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 2.27933967611327,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 0.9406057328270402,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "btagHbb": {
+            "450to500": {
+                "L": {
+                    "chi2": 84.55441101225809,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 33.08251796417013,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 12.356668507784663,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 67.83282103086198,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 28.87237122525462,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 13.82835936455918,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 32.94563357462172,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 11.83941379780366,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 4.112545197165241,
+                    "chi2BelowOne": false
+                }
+            }
+        }
+    },
+    "2018": {
+        "btagDDBvLV2": {
+            "450to500": {
+                "L": {
+                    "chi2": 55.22442866628586,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 19.424215544714222,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 7.870351674755986,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 47.75111384390164,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 18.401698374727896,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 7.597127950375276,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 27.396184374167447,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 10.2570982809488,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 5.111677711532816,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "btagDDCvLV2": {
+            "450to500": {
+                "L": {
+                    "chi2": 19.46184701698052,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.699304272194076,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.8911695459864324,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 17.136051304630524,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 5.272854351932288,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.6184116673204891,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 10.070234705456777,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.023621378181148,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.0782774898564047,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "particleNetMD_Xbb_QCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 17.343897935993873,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 5.72721899203721,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 3.484168277966969,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 17.251747939393447,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.868137481969643,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 3.1596104297987715,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 9.878847646905502,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 4.2801444415366765,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 2.046191218127812,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "particleNetMD_Xcc_QCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 1.614866913778992,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 0.6997517723481945,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.6129297917050217,
+                    "chi2BelowOne": true
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 1.4811116597102738,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 0.6192160318302512,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.381050924405936,
+                    "chi2BelowOne": true
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 0.9294922620886202,
+                    "chi2BelowOne": true
+                },
+                "M": {
+                    "chi2": 0.3915415070844341,
+                    "chi2BelowOne": true
+                },
+                "H": {
+                    "chi2": 0.2495213280967056,
+                    "chi2BelowOne": true
+                }
+            }
+        },
+        "deepTagMD_ZHbbvsQCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 47.22480777769842,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 25.360455510837408,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 16.434000925826496,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 42.27045015076028,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 19.102763657562527,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 9.581129075922028,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 21.52474190602988,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 9.573197778774016,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 5.387889545664064,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "deepTagMD_ZHccvsQCD": {
+            "450to500": {
+                "L": {
+                    "chi2": 18.37023643987172,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 7.522701439792103,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 2.724925353680252,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 15.859168971879976,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 6.179600224359169,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.8650617661424151,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 8.057001618984835,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 3.2039173432211854,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 1.2184510724627244,
+                    "chi2BelowOne": false
+                }
+            }
+        },
+        "btagHbb": {
+            "450to500": {
+                "L": {
+                    "chi2": 110.38324011945264,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 43.51365640357048,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 10.901744858847335,
+                    "chi2BelowOne": false
+                }
+            },
+            "500to600": {
+                "L": {
+                    "chi2": 96.58696265745483,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 36.906972768527005,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 14.21943638999965,
+                    "chi2BelowOne": false
+                }
+            },
+            "600toInf": {
+                "L": {
+                    "chi2": 46.62141466332205,
+                    "chi2BelowOne": false
+                },
+                "M": {
+                    "chi2": 15.468716336884109,
+                    "chi2BelowOne": false
+                },
+                "H": {
+                    "chi2": 6.00141534877126,
+                    "chi2BelowOne": false
+                }
+            }
+        }
+    }
+}

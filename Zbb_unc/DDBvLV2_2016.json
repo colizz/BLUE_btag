@@ -104,33 +104,27 @@
                 "high": "0.000",
                 "low": "0.000"
             },
-            "prefiring16": {
+            "l1PreFiring": {
                 "FreezeAllhigh": 0.236,
                 "FreezeAlllow": 0.221,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.236,
-                "FreezeAlllow": 0.221,
-                "high": "0.000",
+                "high": "0.009",
                 "low": "0.000"
             },
             "pu": {
                 "FreezeAllhigh": 0.236,
                 "FreezeAlllow": 0.221,
                 "high": "0.000",
-                "low": "0.006"
+                "low": "0.000"
             },
             "trig": {
-                "FreezeAllhigh": 0.234,
-                "FreezeAlllow": 0.223,
-                "high": "0.033",
+                "FreezeAllhigh": 0.228,
+                "FreezeAlllow": 0.226,
+                "high": "0.062",
                 "low": "0.000"
             },
             "stats": {
-                "high": 0.234,
-                "low": 0.223
+                "high": 0.228,
+                "low": 0.226
             }
         },
         "ptbin2": {
@@ -237,33 +231,27 @@
                 "high": "0.000",
                 "low": "0.018"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.217,
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.212,
                 "FreezeAlllow": 0.19,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.217,
-                "FreezeAlllow": 0.19,
-                "high": "0.000",
+                "high": "0.046",
                 "low": "0.000"
             },
             "pu": {
-                "FreezeAllhigh": 0.217,
+                "FreezeAllhigh": 0.212,
                 "FreezeAlllow": 0.189,
-                "high": "0.000",
-                "low": "0.007"
+                "high": "0.004",
+                "low": "0.006"
             },
             "trig": {
-                "FreezeAllhigh": 0.209,
-                "FreezeAlllow": 0.191,
-                "high": "0.057",
+                "FreezeAllhigh": 0.2,
+                "FreezeAlllow": 0.199,
+                "high": "0.069",
                 "low": "0.000"
             },
             "stats": {
-                "high": 0.209,
-                "low": 0.191
+                "high": 0.2,
+                "low": 0.199
             }
         },
         "ptbin3": {
@@ -370,33 +358,27 @@
                 "high": "0.026",
                 "low": "0.000"
             },
-            "prefiring16": {
+            "l1PreFiring": {
                 "FreezeAllhigh": 0.221,
                 "FreezeAlllow": 0.213,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.221,
-                "FreezeAlllow": 0.213,
-                "high": "0.000",
-                "low": "0.000"
+                "high": "0.005",
+                "low": "0.009"
             },
             "pu": {
                 "FreezeAllhigh": 0.22,
-                "FreezeAlllow": 0.213,
+                "FreezeAlllow": 0.212,
                 "high": "0.012",
-                "low": "0.007"
+                "low": "0.012"
             },
             "trig": {
-                "FreezeAllhigh": 0.223,
-                "FreezeAlllow": 0.21,
-                "high": "0.000",
-                "low": "0.034"
+                "FreezeAllhigh": 0.213,
+                "FreezeAlllow": 0.211,
+                "high": "0.056",
+                "low": "0.026"
             },
             "stats": {
-                "high": 0.223,
-                "low": 0.21
+                "high": 0.213,
+                "low": 0.211
             }
         }
     },
@@ -505,33 +487,27 @@
                 "high": "0.010",
                 "low": "0.005"
             },
-            "prefiring16": {
+            "l1PreFiring": {
                 "FreezeAllhigh": 0.257,
                 "FreezeAlllow": 0.276,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.257,
-                "FreezeAlllow": 0.276,
-                "high": "0.000",
-                "low": "0.000"
+                "high": "0.005",
+                "low": "0.003"
             },
             "pu": {
                 "FreezeAllhigh": 0.257,
                 "FreezeAlllow": 0.276,
-                "high": "0.000",
+                "high": "0.003",
                 "low": "0.005"
             },
             "trig": {
-                "FreezeAllhigh": 0.256,
-                "FreezeAlllow": 0.256,
-                "high": "0.016",
-                "low": "0.103"
+                "FreezeAllhigh": 0.274,
+                "FreezeAlllow": 0.276,
+                "high": "0.000",
+                "low": "0.008"
             },
             "stats": {
-                "high": 0.256,
-                "low": 0.256
+                "high": 0.274,
+                "low": 0.276
             }
         },
         "ptbin2": {
@@ -638,29 +614,23 @@
                 "high": "0.017",
                 "low": "0.063"
             },
-            "prefiring16": {
+            "l1PreFiring": {
                 "FreezeAllhigh": 0.239,
-                "FreezeAlllow": 0.237,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.239,
-                "FreezeAlllow": 0.237,
-                "high": "0.000",
-                "low": "0.000"
+                "FreezeAlllow": 0.236,
+                "high": "0.006",
+                "low": "0.004"
             },
             "pu": {
                 "FreezeAllhigh": 0.239,
-                "FreezeAlllow": 0.237,
-                "high": "0.002",
-                "low": "0.003"
+                "FreezeAlllow": 0.236,
+                "high": "0.003",
+                "low": "0.004"
             },
             "trig": {
                 "FreezeAllhigh": 0.238,
                 "FreezeAlllow": 0.236,
-                "high": "0.017",
-                "low": "0.002"
+                "high": "0.018",
+                "low": "0.004"
             },
             "stats": {
                 "high": 0.238,
@@ -771,17 +741,11 @@
                 "high": "0.000",
                 "low": "0.000"
             },
-            "prefiring16": {
+            "l1PreFiring": {
                 "FreezeAllhigh": 0.305,
                 "FreezeAlllow": 0.296,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.305,
-                "FreezeAlllow": 0.296,
-                "high": "0.000",
-                "low": "0.000"
+                "high": "0.004",
+                "low": "0.007"
             },
             "pu": {
                 "FreezeAllhigh": 0.305,
@@ -791,13 +755,13 @@
             },
             "trig": {
                 "FreezeAllhigh": 0.295,
-                "FreezeAlllow": 0.294,
+                "FreezeAlllow": 0.304,
                 "high": "0.075",
-                "low": "0.079"
+                "low": "0.014"
             },
             "stats": {
                 "high": 0.295,
-                "low": 0.294
+                "low": 0.304
             }
         }
     },

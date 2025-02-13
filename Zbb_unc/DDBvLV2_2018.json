@@ -104,18 +104,6 @@
                 "high": "0.009",
                 "low": "0.007"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.101,
-                "FreezeAlllow": 0.1,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.101,
-                "FreezeAlllow": 0.1,
-                "high": "0.000",
-                "low": "0.000"
-            },
             "pu": {
                 "FreezeAllhigh": 0.101,
                 "FreezeAlllow": 0.1,
@@ -127,6 +115,12 @@
                 "FreezeAlllow": 0.1,
                 "high": "0.014",
                 "low": "0.010"
+            },
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.202,
+                "FreezeAlllow": 0.2,
+                "high": 0.0,
+                "low": 0.0
             },
             "stats": {
                 "high": 0.1,
@@ -237,18 +231,6 @@
                 "high": "0.013",
                 "low": "0.011"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.082,
-                "FreezeAlllow": 0.081,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.082,
-                "FreezeAlllow": 0.081,
-                "high": "0.000",
-                "low": "0.000"
-            },
             "pu": {
                 "FreezeAllhigh": 0.082,
                 "FreezeAlllow": 0.081,
@@ -260,6 +242,12 @@
                 "FreezeAlllow": 0.08,
                 "high": "0.014",
                 "low": "0.011"
+            },
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.164,
+                "FreezeAlllow": 0.162,
+                "high": 0.0,
+                "low": 0.0
             },
             "stats": {
                 "high": 0.081,
@@ -370,18 +358,6 @@
                 "high": "0.014",
                 "low": "0.014"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.078,
-                "FreezeAlllow": 0.077,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.078,
-                "FreezeAlllow": 0.077,
-                "high": "0.000",
-                "low": "0.000"
-            },
             "pu": {
                 "FreezeAllhigh": 0.078,
                 "FreezeAlllow": 0.077,
@@ -393,6 +369,12 @@
                 "FreezeAlllow": 0.077,
                 "high": "0.010",
                 "low": "0.004"
+            },
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.156,
+                "FreezeAlllow": 0.154,
+                "high": 0.0,
+                "low": 0.0
             },
             "stats": {
                 "high": 0.077,
@@ -505,18 +487,6 @@
                 "high": "0.013",
                 "low": "0.005"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.129,
-                "FreezeAlllow": 0.128,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.129,
-                "FreezeAlllow": 0.128,
-                "high": "0.000",
-                "low": "0.000"
-            },
             "pu": {
                 "FreezeAllhigh": 0.082,
                 "FreezeAlllow": 0.146,
@@ -528,6 +498,12 @@
                 "FreezeAlllow": 0.127,
                 "high": "0.000",
                 "low": "0.072"
+            },
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.258,
+                "FreezeAlllow": 0.256,
+                "high": 0.0,
+                "low": 0.0
             },
             "stats": {
                 "high": 0.127,
@@ -638,18 +614,6 @@
                 "high": "0.012",
                 "low": "0.011"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.11,
-                "FreezeAlllow": 0.108,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.11,
-                "FreezeAlllow": 0.108,
-                "high": "0.000",
-                "low": "0.000"
-            },
             "pu": {
                 "FreezeAllhigh": 0.11,
                 "FreezeAlllow": 0.108,
@@ -661,6 +625,12 @@
                 "FreezeAlllow": 0.107,
                 "high": "0.016",
                 "low": "0.013"
+            },
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.22,
+                "FreezeAlllow": 0.216,
+                "high": 0.0,
+                "low": 0.0
             },
             "stats": {
                 "high": 0.109,
@@ -771,18 +741,6 @@
                 "high": "0.016",
                 "low": "0.010"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.13,
-                "FreezeAlllow": 0.129,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.13,
-                "FreezeAlllow": 0.129,
-                "high": "0.000",
-                "low": "0.000"
-            },
             "pu": {
                 "FreezeAllhigh": 0.127,
                 "FreezeAlllow": 0.131,
@@ -794,6 +752,12 @@
                 "FreezeAlllow": 0.129,
                 "high": "0.000",
                 "low": "0.026"
+            },
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.26,
+                "FreezeAlllow": 0.258,
+                "high": 0.0,
+                "low": 0.0
             },
             "stats": {
                 "high": 0.13,

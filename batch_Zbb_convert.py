@@ -34,12 +34,12 @@ class Zbb_interface():
             "Total":"final",
             'lumi':"lumi_13TeV",
             "puUnc":"pu",
-            "FSR":"psWeightFsr_Zbb",
-            "ISR":"psWeightIsr_Zbb",
+            "FSR":"psWeightFsr",
+            "ISR":"psWeightIsr",
             "prefiring":"l1PreFiring"
         }
 
-        print(csv.index)
+        # print(csv.index)
         if 'prefiring16' in csv.index:
             csv.loc[['prefiring16','prefiring17'],:] = csv.loc[['prefiring16','prefiring17'],:].apply(pd.to_numeric,errors='ignore')
             csv.loc['l1PreFiring',:] = csv.loc['prefiring16',:]+csv.loc['prefiring17',:]

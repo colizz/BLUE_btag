@@ -104,29 +104,23 @@
                 "high": "0.000",
                 "low": "0.084"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.332,
-                "FreezeAlllow": 0.289,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.332,
-                "FreezeAlllow": 0.289,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "pu": {
+            "l1PreFiring": {
                 "FreezeAllhigh": 0.304,
                 "FreezeAlllow": 0.302,
                 "high": "0.134",
                 "low": "0.000"
             },
+            "pu": {
+                "FreezeAllhigh": 0.333,
+                "FreezeAlllow": 0.264,
+                "high": "0.000",
+                "low": "0.146"
+            },
             "trig": {
                 "FreezeAllhigh": 0.303,
                 "FreezeAlllow": 0.301,
-                "high": "0.028",
-                "low": "0.017"
+                "high": "0.138",
+                "low": "0.000"
             },
             "stats": {
                 "high": 0.303,
@@ -237,33 +231,27 @@
                 "high": "0.000",
                 "low": "0.000"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.226,
-                "FreezeAlllow": 0.223,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.226,
-                "FreezeAlllow": 0.223,
-                "high": "0.000",
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.201,
+                "FreezeAlllow": 0.247,
+                "high": "0.103",
                 "low": "0.000"
             },
             "pu": {
-                "FreezeAllhigh": 0.201,
-                "FreezeAlllow": 0.247,
-                "high": "0.102",
-                "low": "0.000"
+                "FreezeAllhigh": 0.224,
+                "FreezeAlllow": 0.224,
+                "high": "0.000",
+                "low": "0.105"
             },
             "trig": {
-                "FreezeAllhigh": 0.199,
-                "FreezeAlllow": 0.247,
-                "high": "0.028",
-                "low": "0.018"
+                "FreezeAllhigh": 0.211,
+                "FreezeAlllow": 0.212,
+                "high": "0.075",
+                "low": "0.071"
             },
             "stats": {
-                "high": 0.199,
-                "low": 0.247
+                "high": 0.211,
+                "low": 0.212
             }
         },
         "ptbin3": {
@@ -370,33 +358,27 @@
                 "high": "0.025",
                 "low": "0.014"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.238,
-                "FreezeAlllow": 0.237,
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.25,
+                "FreezeAlllow": 0.229,
                 "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.238,
-                "FreezeAlllow": 0.237,
-                "high": "0.000",
-                "low": "0.000"
+                "low": "0.063"
             },
             "pu": {
-                "FreezeAllhigh": 0.251,
-                "FreezeAlllow": 0.229,
-                "high": "0.000",
-                "low": "0.061"
-            },
-            "trig": {
                 "FreezeAllhigh": 0.249,
-                "FreezeAlllow": 0.229,
-                "high": "0.027",
+                "FreezeAlllow": 0.237,
+                "high": "0.025",
                 "low": "0.000"
             },
+            "trig": {
+                "FreezeAllhigh": 0.238,
+                "FreezeAlllow": 0.237,
+                "high": "0.074",
+                "low": "0.009"
+            },
             "stats": {
-                "high": 0.249,
-                "low": 0.229
+                "high": 0.238,
+                "low": 0.237
             }
         }
     },

@@ -1,11 +1,11 @@
 {
     "methods":{
         "sfbdt_cc":{
-            "uncertainty_list":["jer", "jes", "fracBB_sfbdt", "fracCC_sfbdt", "stats", "fracLight_sfbdt", "pu", "psWeightIsr", "lumi_13TeV", "l1PreFiring", "psWeightFsr", "extSfBDTVariation", "extVarRwgt"],
+            "uncertainty_list":["jer", "jes", "fracBB", "fracCC", "stats", "fracLight", "pu", "psWeightIsr", "lumi_13TeV", "l1PreFiring", "psWeightFsr", "extSfBDTVariation", "extVarRwgt"],
             "input_prefix":"sfbdt_unc"
         },
         "mutag":{
-            "uncertainty_list":["jer", "jes", "fracBB_mutag", "fracCC_mutag", "stats", "fracLight_mutag", "pu", "lumi_13TeV", "l1PreFiring","extMutagVarRwgt","extMutagTau21Variation","QCDFlvCompos"],
+            "uncertainty_list":["jer", "jes", "fracBB", "fracCC", "stats", "fracLight", "pu", "lumi_13TeV", "l1PreFiring","reweighting_uncertainty","tau21_uncertainty_max","QCDFlvCompos"],
             "input_prefix":"mutag_unc"
         }
     },
@@ -21,6 +21,9 @@
         "psWeightIsr":1,
         "lumi_13TeV":1,
         "l1PreFiring":1,
+        "fracBB":1,
+        "fracCC":1,
+        "fracLight":1,
         "psWeightFsr":1
     },
     "ptbins":3

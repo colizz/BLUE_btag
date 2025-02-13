@@ -104,18 +104,6 @@
                 "high": "0.027",
                 "low": "0.008"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.215,
-                "FreezeAlllow": 0.2,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.215,
-                "FreezeAlllow": 0.2,
-                "high": "0.000",
-                "low": "0.000"
-            },
             "pu": {
                 "FreezeAllhigh": 0.217,
                 "FreezeAlllow": 0.2,
@@ -127,6 +115,12 @@
                 "FreezeAlllow": 0.189,
                 "high": "0.015",
                 "low": "0.064"
+            },
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.43,
+                "FreezeAlllow": 0.4,
+                "high": 0.0,
+                "low": 0.0
             },
             "stats": {
                 "high": 0.216,
@@ -237,18 +231,6 @@
                 "high": "0.000",
                 "low": "0.002"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.172,
-                "FreezeAlllow": 0.183,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.172,
-                "FreezeAlllow": 0.183,
-                "high": "0.000",
-                "low": "0.000"
-            },
             "pu": {
                 "FreezeAllhigh": 0.172,
                 "FreezeAlllow": 0.183,
@@ -260,6 +242,12 @@
                 "FreezeAlllow": 0.183,
                 "high": "0.027",
                 "low": "0.000"
+            },
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.344,
+                "FreezeAlllow": 0.366,
+                "high": 0.0,
+                "low": 0.0
             },
             "stats": {
                 "high": 0.17,
@@ -370,18 +358,6 @@
                 "high": "0.032",
                 "low": "0.036"
             },
-            "prefiring16": {
-                "FreezeAllhigh": 0.217,
-                "FreezeAlllow": 0.211,
-                "high": "0.000",
-                "low": "0.000"
-            },
-            "prefiring17": {
-                "FreezeAllhigh": 0.217,
-                "FreezeAlllow": 0.211,
-                "high": "0.000",
-                "low": "0.000"
-            },
             "pu": {
                 "FreezeAllhigh": 0.218,
                 "FreezeAlllow": 0.213,
@@ -393,6 +369,12 @@
                 "FreezeAlllow": 0.146,
                 "high": "0.000",
                 "low": "0.155"
+            },
+            "l1PreFiring": {
+                "FreezeAllhigh": 0.434,
+                "FreezeAlllow": 0.422,
+                "high": 0.0,
+                "low": 0.0
             },
             "stats": {
                 "high": 0.218,

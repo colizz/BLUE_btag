@@ -5,14 +5,14 @@ import pandas as pd
 import numpy as np
 
 class Zbb_interface():
-    def __init__(self, year='18', tagger='ParticleNet', path='/home/pku/licq/calib/mutag/fromSenLxplus/20240713/BLUE_btag/Zbb_input_v2502/Zbb_unc', **kwargs):
+    def __init__(self, year='18', tagger='ParticleNet', path='/home/pku/licq/calib/mutag/fromSenLxplus/20240713/BLUE_btag/Zbb_input_v2502/Zbb_unc/v2', **kwargs):
         self.year = year
         self.path = path
         self.tagger = tagger
         tagger_map = {
             'ParticleNet': 'PNetXbbVsQCD',
             'DeepDoubleX': 'DDBvLV2',
-            'DoubleB': 'DoubleB'
+            'Hbb': 'DoubleB',
         }
         _store_dir = 'Zbb_unc'
         if os.path.exists(f'./{_store_dir}'):
@@ -36,7 +36,8 @@ class Zbb_interface():
             "puUnc":"pu",
             "FSR":"psWeightFsr",
             "ISR":"psWeightIsr",
-            "prefiring":"l1PreFiring"
+            "prefiring":"l1PreFiring",
+            "RPF":"ratioPF",
         }
 
         # print(csv.index)
@@ -64,7 +65,7 @@ class Zbb_interface():
         for _wp in _wp_list:
             _wp_dict = {}
             for _ptbin in _ptbin_map.keys():
-                _csv_file = f'{self.path}/{self.tagger}/ZbbuncBreakdown/{self.year}_{_wp}_SF_ZJets_bc_{_ptbin}.csv'
+                _csv_file = f'{self.path}/{self.tagger}_{self.year}_{_wp}_SF_ZJets_bc_{_ptbin}.csv'
                 if os.path.exists(_csv_file):
                     _ptbin_dict = self.csv_to_json(_csv_file)
                     _wp_dict[_ptbin_map[_ptbin]] = _ptbin_dict
@@ -81,7 +82,7 @@ class Zbb_interface():
 if __name__ == '__main__':
     lists ={
         'b_list' : {
-        'tagger':['ParticleNet', 'DeepDoubleX','DoubleB'],
+        'tagger':['ParticleNet', 'DeepDoubleX', 'Hbb'],
         'year':['16APV', '16', '17', '18']
         },
     }

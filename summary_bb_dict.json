@@ -9,7 +9,7 @@
             "input_prefix":"mutag_unc"
         },
         "ZJets":{
-            "uncertainty_list":["psWeightFsr", "psWeightIsr", "W_d2kappa_EW", "W_d3kappa_EW", "Z_d2kappa_EW", "Z_d3kappa_EW", "d1K_NLO", "d1kappa_EW", "d2K_NLO", "d3K_NLO", "jer", "jes", "jmr", "jms", "lumi_13TeV", "pdfUnc", "l1PreFiring", "trig", "stats"],
+            "uncertainty_list":["ratioPF", "psWeightFsr", "psWeightIsr", "W_d2kappa_EW", "W_d3kappa_EW", "Z_d2kappa_EW", "Z_d3kappa_EW", "d1K_NLO", "d1kappa_EW", "d2K_NLO", "d3K_NLO", "jer", "jes", "jmr", "jms", "lumi_13TeV", "pdfUnc", "l1PreFiring", "trig", "stats"],
             "input_prefix":"Zbb_unc"
         }
     },

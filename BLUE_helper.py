@@ -5,6 +5,7 @@ import json
 import argparse
 import logging
 from decimal import Decimal
+import copy
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -26,6 +27,7 @@ class BLUE_combine():
         self._Ucolumn_index = [f'ptbin{ptbin}' for ptbin in range(1, self._ptbins+1)]
     
         self._store = f'./Combine_{self._tagger}_{wp}_{self._year}.txt'
+        self._store_json = f'./Combine_{self._tagger}_{wp}_{self._year}.json'
 
         self.methods = []
         for method in self._unc_dict['methods']:
@@ -61,11 +63,14 @@ class BLUE_combine():
                     return True 
             return False
 
-        def _BuildBlock(row=(0,0), column=(0,0), **kwargs):
+        def _BuildBlock(row=(0,0), column=(0,0), unc_lists=None, **kwargs):
             logging.info(f'Constructing block for row {row} and column {column}')
             sigma = 0.
             methods = self._unc_dict['methods']
-            for unc_type in self._unc_lists:
+            # allow to iterative through provided unc_lists
+            if unc_lists is None:
+                unc_lists = self._unc_lists
+            for unc_type in unc_lists:
                 unc_isExist = True
                 if not _CompareString(unc_type, methods[row[0]]['uncertainty_list']):
                     logging.info(f'{row[0]} doesn\'t include {unc_type}, skipping')
@@ -75,6 +80,7 @@ class BLUE_combine():
                     unc_isExist = False
                 if not unc_isExist: continue
                 row_sigma = (float(methods[row[0]]['input_json'][self._wp][f'ptbin{row[1]}'][unc_type]['high']) + float(methods[row[0]]['input_json'][self._wp][f'ptbin{row[1]}'][unc_type]['low'])) / 2
+                print(self._tagger, self._year, self._wp, column[1])
                 column_sigma = (float(methods[column[0]]['input_json'][self._wp][f'ptbin{column[1]}'][unc_type]['high']) + float(methods[column[0]]['input_json'][self._wp][f'ptbin{column[1]}'][unc_type]['low'])) / 2
                 if row[0]==column[0] and row[1]==column[1]:
                     sigma += row_sigma * column_sigma
@@ -94,7 +100,7 @@ class BLUE_combine():
 
         for _row_index in range(len(tuple_method_ptbin)):
             for _column_index in range(_row_index, len(tuple_method_ptbin)):
-                CMatrix.iloc[_row_index,_column_index] = _BuildBlock(row=tuple_method_ptbin[_row_index], column=tuple_method_ptbin[_column_index])
+                CMatrix.iloc[_row_index,_column_index] = _BuildBlock(row=tuple_method_ptbin[_row_index], column=tuple_method_ptbin[_column_index], unc_lists=kwargs.get('unc_lists', None))
         
         CMatrix = CMatrix + CMatrix.T - pd.DataFrame(np.diag(np.diag(CMatrix)), columns=self._Cindex, index=self._Cindex)
         # print(CMatrix)
@@ -162,6 +168,29 @@ class BLUE_combine():
             f.write(f'Original down:\n {OLow}\n ')
             f.write(f'\nFinal SF: {X}')
             f.write(f'\nFinal Variance: {np.diagonal(np.sqrt(lambda_ai * CMatrix * lambda_ai.T))}')
+        
+        # new by CL: also store the result in json format
+        self._unc_dict['combine'] = {}
+        self._unc_dict['combine']['UMatrix'] = self.BuildUMatrix().values.tolist()
+        self._unc_dict['combine']['CMatrix'] = self.BuildCovarianceMatrix().values.tolist()
+        self._unc_dict['combine']['lambda_ai'] = lambda_ai.tolist()
+        self._unc_dict['combine']['OCentral'] = OCentral.tolist()
+        self._unc_dict['combine']['OHigh'] = OHigh.tolist()
+        self._unc_dict['combine']['OLow'] = OLow.tolist()
+        self._unc_dict['combine']['result'] = {}
+        # get the breakdown uncertainty for each unc source
+        unc_breakdown = {}
+        for unc in self._unc_lists:
+            CMatrix_unc = np.matrix(self.BuildCovarianceMatrix(unc_lists=[unc]))
+            unc_breakdown[unc] = np.diagonal(np.sqrt(lambda_ai * CMatrix_unc * lambda_ai.T))
+        unc_total = np.diagonal(np.sqrt(lambda_ai * CMatrix * lambda_ai.T))
+        for ptbin in range(1,self._ptbins+1):
+            self._unc_dict['combine']['result'][f'ptbin{ptbin}'] = {}
+            self._unc_dict['combine']['result'][f'ptbin{ptbin}']['final'] = {"central": X.loc[f'ptbin{ptbin}']['Combine Scale Factor'], "high": unc_total[ptbin-1], "low": unc_total[ptbin-1]}
+            for unc in self._unc_lists:
+                self._unc_dict['combine']['result'][f'ptbin{ptbin}'][unc] = {"high": unc_breakdown[unc][ptbin-1], "low": unc_breakdown[unc][ptbin-1]}
+        with open(self._store_json, 'w+') as f:
+            json.dump(self._unc_dict, f, indent=4)
         pass
 
 if __name__ == '__main__':
@@ -172,5 +201,6 @@ if __name__ == '__main__':
         for year in jsons['year']:
             for wp in jsons['wp']:
                 print(tagger, year, wp)
-                BLUE_btag = BLUE_combine(unc_dict=jsons, tagger=tagger, year=year, wp=wp, input_dir=args.path)
+                input_jsons = copy.deepcopy(jsons)
+                BLUE_btag = BLUE_combine(unc_dict=input_jsons, tagger=tagger, year=year, wp=wp, input_dir=args.path)
                 BLUE_btag.run()
